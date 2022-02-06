@@ -10,5 +10,6 @@ build:
 test:
 	./test.sh
 
+
 package:
 	tar -cvzf gotpl-$(GOOS)-$(GOARCH).tar.gz -C bin gotpl
